@@ -3799,7 +3799,7 @@ end)
 
  
 --------------------------------------------------------------------
-local Library = Update:Window("TSUO HUB ","")
+local Library = Update:Window("GG hub ","")
 ------------------------------------------
 
 spawn(function()
@@ -5801,7 +5801,7 @@ local NotificationHolder = loadstring(game:HttpGet("https://raw.githubuserconten
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 wait(1)
 Notification:Notify(
-   {Title = "TSUO HUB", Description = "You Have Max Observation"},
+   {Title = "GG hub", Description = "You Have Max Observation"},
    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
    {Image = "https://i.pinimg.com/564x/08/25/06/082506876327d31cb742bdfa55ebef87.jpg", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
 )
