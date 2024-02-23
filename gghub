@@ -2185,8 +2185,8 @@ function UpdateTime()
     local GameTime = math.floor(workspace.DistributedGameTime+0.5)
     local Hour = math.floor(GameTime/(60^2))%24
     local Minute = math.floor(GameTime/(60^1))%60
-    local Second = math.floor(GameTime/(60^0))%60
     Time:Set("Hour : "..Hour.." Minute : "..Minute.." Second : "..Second)
+    local Second = math.floor(GameTime/(60^0))%60
 end
 
 spawn(function()
